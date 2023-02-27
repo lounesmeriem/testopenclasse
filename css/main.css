@@ -5,5 +5,18 @@
 * {
     box-sizing: border-box;
 }
-
-
+body{
+    background-color:B74F6F;
+}
+header {
+    font-family: arvo, sans-serif;
+    font-size: 1.3em;
+}
+header .nom{
+    font-family: arvo, sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+    font-style:normal;
+    text-transform:capitalize;
+    text-align:center;
+}
