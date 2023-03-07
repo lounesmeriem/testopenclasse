@@ -21,12 +21,18 @@ header ul li a {
 }
 header a .nom {
     font-family: arvo, sans-serif;
-    font-size:2.5rem;
+    font-size:4.5rem;
     font-weight: bold;
     font-style:normal;
     text-transform:capitalize;
     text-align:center;
     color:#ffffff;
+    text-decoration: none;
+}
+header .nom:hover{
+    color:#FFC8D3;
+
+
 }
 header .logo{
     color:#ffffff;
@@ -42,12 +48,10 @@ nav a {
     list-style-type: none;
     display: block;
     font-weight: 800;
-    margin:5px 0;
     max-width:150px;
     text-decoration: none;
     text-align:center;
     padding:10px 0;
-    margin:5px 0;
 }
 nav li {
     text-align: center;
