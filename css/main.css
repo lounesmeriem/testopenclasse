@@ -31,9 +31,11 @@ header a .nom {
 header .logo{
     color:#ffffff;
 }
-header a img {
+header a img .logo {
     padding:23px 5px 23px 5px;
     margin:23px 5px 23px 5px;
+    display:block;
+    text-align:center;
 
 }
 nav a {
@@ -46,8 +48,6 @@ nav a {
     text-align:center;
     padding:10px 0;
     margin:5px 0;
-
-
 }
 nav li {
     text-align: center;
@@ -63,6 +63,7 @@ nav ul {
     list-style-type: none;
     text-align:center;
 }
+
 p{
     font-family: arvo,sans-serif;
 }
