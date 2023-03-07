@@ -13,15 +13,20 @@ body{
     font-size:1.5em;
     font-weight:normal;
 }
-header ul li a {
+header nav ul li a:actif{
     font-family: arvo, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color:#ffffff;
     text-align:center;
+    padding:5px;
+    margin:5px 0;
+    list-style-type:none;
+    text-decoration: none;
+
 }
 header a .nom {
     font-family: arvo, sans-serif;
-    font-size:4.5rem;
+    font-size:1.5rem;
     font-weight: bold;
     font-style:normal;
     text-transform:capitalize;
@@ -39,44 +44,20 @@ header .logo{
     text-decoration: none;
 }
 header a img .logo {
-    padding:23px 5px 23px 5px;
-    margin:23px 5px 23px 5px;
+    padding:0px;
+    margin:0px;
     display:block;
     text-align:center;
 
 }
-nav a {
-    list-style-type: none;
-    display: block;
-    font-weight: 800;
-    max-width:150px;
-    text-decoration: none;
-    text-align:center;
-    padding:10px 0;
-}
-nav li {
-    text-align: center;
-    list-style-type: none;
-    display:flex;
-    justify-content:flex-start;
-    padding: 60px;
 
-}
-nav ul {
-    padding: 50px;
-    display:flex;
-    list-style-type: none;
-    text-align:center;
-}
 
 main p{
     font-family: arvo,sans-serif;
-    text-align:center;
-    max-width:750px;
+    text-align:justify;
     font-size:1em;
     line-height:1.5;
     font-weight:normal;
-    margin: 23px 5px 23px 5px;
-    padding: 23px 5px 23px 5px;
+
 
 }
