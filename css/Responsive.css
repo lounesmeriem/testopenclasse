@@ -6,7 +6,13 @@
      text-align:right;
      margin-right:5%;
  }
-
+.logo{
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:5%;
+    text-align:left;
+    width:20%;
+}
 
 
 

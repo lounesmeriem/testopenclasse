@@ -36,6 +36,7 @@ header .nom:hover{
 }
 header .logo{
     color:#ffffff;
+    text-decoration: none;
 }
 header a img .logo {
     padding:23px 5px 23px 5px;
@@ -68,6 +69,14 @@ nav ul {
     text-align:center;
 }
 
-p{
+main p{
     font-family: arvo,sans-serif;
+    text-align:center;
+    max-width:750px;
+    font-size:1em;
+    line-height:1.5;
+    font-weight:normal;
+    margin: 23px 5px 23px 5px;
+    padding: 23px 5px 23px 5px;
+
 }
