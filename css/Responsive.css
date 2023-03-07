@@ -1,3 +1,12 @@
 @media screen and (main-width:660px){
+ nav {
+     vertical-align:middle;
+     display:inline-block;
+     width:75%;
+     text-align:right;
+ }
+
+
+
 
 }
