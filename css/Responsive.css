@@ -1,9 +1,10 @@
 @media screen and (main-width:660px){
- nav {
+ nav ul li a {
      vertical-align:middle;
      display:inline-block;
      width:75%;
      text-align:right;
+     margin-right:5%;
  }
 
 
