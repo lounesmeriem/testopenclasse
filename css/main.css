@@ -9,7 +9,7 @@ body{
 
 }
 /*page Active*/
-.pageActive {
+.pageActive{
  color: #F5F5F5;
  }
 header {
@@ -20,7 +20,8 @@ header {
     grid-template-columns: 33fr 43fr 23fr;
     gap: 10px;
     margin: -8px;
-    padding: 10px;}
+    padding: 10px;
+}
 .logo {
     max-width: 100%;
     height: auto;
@@ -62,13 +63,14 @@ header ul {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
 }
 #menuToggle span:first-child {
-    transform-origin: 0 0;}
+    transform-origin: 0 0;
+}
 #menuToggle span:nth-last-child(2) {
-    transform-origin: 0 100%;}
+    transform-origin: 0 100%;
+}
 #menuToggle input:checked ~ span {
     opacity: 1;
-    transform: rotate(45deg)
-    translate(-3px, -1px);
+    transform: rotate(45deg) translate(-3px, -1px);
     background: #F5F5F5;
 }
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -80,12 +82,12 @@ header ul {
     translate(0, -1px);
 }
 #menu {
-   position: absolute;
+  position: absolute;
   top: 30px;
   right: 0;
   width: 180px;
-  height: 300px;
-  border: #528BCB solid 1px;
+  height: 500px;
+  border: #528BCB solid 2px;
   padding: 50px;
   background-color: #528BCB;
  -webkit-font-smoothing: antialiased;
