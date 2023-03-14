@@ -6,7 +6,10 @@
 
 body{
     background-color : #B74F6F;
-
+    osition: relative;
+    width: 400px;
+    height: 3624px;
+    overflow-y: scroll;
 }
 /*page Active*/
 .pageActive{
@@ -139,6 +142,23 @@ footer ul li img {
 footer ul li img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
+}
+main h1{
+    position: absolute;
+    width: 276px;
+    height: 60px;
+    left: 59px;
+    top: 122px;
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EEF5DB;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 main .image1{
     box-sizing:border-box;
