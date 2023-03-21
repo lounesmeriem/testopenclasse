@@ -236,3 +236,9 @@ main img.image8{
     border: 4px solid #000000;
     border-radius: 102px;
 }
+main img.image9{
+    width: 340px;
+    height: 276px;
+    border: 4px solid #000000;
+    border-radius: 100px;
+}
