@@ -17,7 +17,7 @@ body{
 main {
     text-align: center;
 }
-h1 .pageActive {
+h1.pageActive {
     text-decoration: none;
 }
 h2 {
@@ -146,6 +146,7 @@ transform: none;
 footer {
     text-align: center;
     padding: 50px 0 0; /* 50px en haut */
+    color:#EEF5DB;
 }
 
 footer nav {
@@ -166,10 +167,8 @@ footer ul li img {
     width: 50px;
     height: 50px;
     margin: 0 15px;
-
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
-
     -webkit-transition: -webkit-filter 500ms linear;
     transition: filter 500ms linear;
 }
