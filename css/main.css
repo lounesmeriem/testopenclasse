@@ -259,3 +259,9 @@ main img.image10{
 main .liste1{
     text-align:left;
 }
+main img.image11{
+    width: 345px;
+    height: 263px;
+    border: 4px solid #000000;
+    border-radius: 60px;
+}
