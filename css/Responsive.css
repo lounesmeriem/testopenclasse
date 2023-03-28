@@ -14,7 +14,17 @@
     left: 101px;
     top: 8.97px;
     border-radius: 85px;
+    display: none;
 }
+    #menu.logo2{
+        position: absolute;
+        width: 100px;
+        height: 96.48px;
+        left: 101px;
+        top: 8.97px;
+        border-radius: 85px;
+
+    }
     body{
         position: relative;
         width: 1280px;
@@ -23,7 +33,6 @@
     }
 header{
     background-color:#B74F6F;
-
 }
     header ul {
         padding: 0;
@@ -88,7 +97,8 @@ header{
         border: #528BCB solid 2px;
         padding: 10px;
         background-color: #528BCB;
-        background-image: url("image/favicon.ico");
+        overflow: auto;
+        white-space: nowrap;
         -webkit-font-smoothing: antialiased;
         transform-origin: 0 0;
         transform: translate(150%, 0);
