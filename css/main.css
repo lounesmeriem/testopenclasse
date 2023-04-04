@@ -20,7 +20,7 @@ main {
 h1.pageActive {
     text-decoration: none;
 }
-h2 {
+h2{
     font-family: 'Arvo', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -156,43 +156,7 @@ header ul {
 #menuToggle input:checked ~ ul {
 transform: none;
 }
-
-/*pied de page*/
-
-footer {
-    text-align: center;
-    padding: 50px 0 0; /* 50px en haut */
-    color:#EEF5DB;
-}
-
-footer nav {
-    margin-bottom: 1rem;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-footer ul li {
-    display: inline-block;
-}
-
-footer ul li img {
-    width: 50px;
-    height: 50px;
-    margin: 0 15px;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-    -webkit-transition: -webkit-filter 500ms linear;
-    transition: filter 500ms linear;
-}
-
-footer ul li img:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-}
+/*menue principale */
 main figure img{
     margin:10px;
 }
@@ -280,4 +244,41 @@ main img.image11{
     height: 263px;
     border: 4px solid #000000;
     border-radius: 60px;
+}
+
+/*pied de page*/
+
+footer {
+    text-align: center;
+    padding: 50px 0 0; /* 50px en haut */
+    color:#EEF5DB;
+}
+
+footer nav {
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li img {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    -webkit-transition: -webkit-filter 500ms linear;
+    transition: filter 500ms linear;
+}
+
+footer ul li img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }
