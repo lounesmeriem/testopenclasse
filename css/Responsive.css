@@ -160,10 +160,12 @@ p {
     }
     main div.figure2{
         align-content:flex-start;
-        width: 380px;
+        width: 400px;
         margin: 10px 0;
+        flex-wrap: wrap;
 
     }
+    main
 
     main div.figure1{
         width: 380px;
@@ -178,7 +180,9 @@ p {
     main figure img{
         margin:10px;
     }
-
+   h2.titre1{
+       margin: 0;
+   }
     main img.image1{
         left: 888px;
         top: 256px;
