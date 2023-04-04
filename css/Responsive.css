@@ -160,6 +160,8 @@ p {
     }
     main div.figure2{
         align-content:flex-start;
+        width: 380px;
+        margin: 10px 0;
 
     }
 
