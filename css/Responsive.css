@@ -11,34 +11,52 @@
     position: absolute;
     width: 100px;
     height: 96.48px;
-    left: 101px;
-    top: 8.97px;
     border-radius: 85px;
     display: none;
 }
     #menu img.logo2{
-        position: absolute;
         width: 100px;
         height: 96.48px;
-        left: 101px;
-        top: 8.97px;
         border-radius: 85px;
-
+        text-align:right;
     }
     body{
         position: relative;
-        width: 1280px;
-        height: 2204px;
         background: #B74F6F;
+        height: 2204px;
+        width: 1280px;
+        text-align: center;
+
     }
+    h2{
+        width: 557px;
+        height: 137px;
+        font-family: 'Arvo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #EEF5DB;
+    }
+
 header{
     background-color:#B74F6F;
 }
-    header ul {
-        padding:0;
-        margin: 0;
-        list-style-type: none;
-    }
+p {
+    width: 690px;
+    height: 219px;
+    left: 78px;
+    top: 303px;
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.195em;
+}
+
     #menuToggle {
         display: flex;
         flex-direction: column;
@@ -90,7 +108,7 @@ header{
     }
     #menu {
         position: absolute;
-        left: -10px;
+        left: -40px;
         top:0px;
         right: 0;
         width: 2000px;
@@ -110,7 +128,9 @@ header{
         display: inline-block;
         color: white;
         text-align: center;
-        padding: 14px;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
         text-decoration: none;
 
     }
