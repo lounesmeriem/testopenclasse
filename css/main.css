@@ -5,6 +5,9 @@
 }
 /* Général */
 body{
+    position: relative;
+    width: 1279px;
+    height: 2000px;
     background-color : #B74F6F;
     text-space: 1.5em;
     overflow-y: scroll;
